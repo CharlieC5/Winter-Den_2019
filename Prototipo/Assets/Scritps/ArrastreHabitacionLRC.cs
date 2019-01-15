@@ -19,7 +19,7 @@ public class ArrastreHabitacionLRC : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Habitacion"))
         {
-            if (rb.velocity.x < velocidadTope || rb.velocity.x >-velocidadTope)
+            if (Mathf.Abs(rb.velocity.x) < velocidadTope)
             {
                 rb.AddForce(new Vector2(1, 0) * velocidad);
             }
@@ -32,5 +32,12 @@ public class ArrastreHabitacionLRC : MonoBehaviour
             velocidad = velocidad *-1;
         }
     }
+
+    private void OnMouseDrag()
+    {
+        gameObject.transform.position = Vector2.MoveTowards(transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition), 0.5f);
+
+    }
+
 
 }

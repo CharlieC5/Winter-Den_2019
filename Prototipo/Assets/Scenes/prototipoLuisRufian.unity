@@ -237,7 +237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245541568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -2.08, z: 0}
+  m_LocalPosition: {x: -0.4, y: -1.71, z: 1.49}
   m_LocalScale: {x: 5.5184045, y: 3.083919, z: 0.71288}
   m_Children:
   - {fileID: 261425098}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 604823536}
   m_Layer: 0
   m_Name: Habitacion (1)
-  m_TagString: Untagged
+  m_TagString: Habitacion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -509,7 +509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604823535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77, y: 2.63, z: 0}
+  m_LocalPosition: {x: -0.19, y: 2.9, z: 1.49}
   m_LocalScale: {x: 5.5184045, y: 3.083919, z: 0.71288}
   m_Children:
   - {fileID: 1469717195}
