@@ -255,7 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 261425098}
   - component: {fileID: 261425099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pared Derecha
   m_TagString: Pared
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263907295}
   - component: {fileID: 1263907296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pared Izquierda
   m_TagString: Pared
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469717195}
   - component: {fileID: 1469717196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pared Derecha
   m_TagString: Pared
   m_Icon: {fileID: 0}
@@ -645,7 +645,6 @@ GameObject:
   - component: {fileID: 1556374682}
   - component: {fileID: 1556374681}
   - component: {fileID: 1556374686}
-  - component: {fileID: 1556374687}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -758,27 +757,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556374680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eb0019ab9817da478ebfe5634bf9bb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f67a86502a9c2543b6ba63cf1237ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 10
-  velocidadTope: 1
---- !u!114 &1556374687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556374680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea21e0e1a4b0171468d72fe280cac750, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  velocidad: 5
+  velocidadTope: 10
   capas:
     serializedVersion: 2
-    m_Bits: 0
-  distancia: 5
+    m_Bits: 256
+  distancia: 0.3
 --- !u!1 &1729015825
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1729015826}
   - component: {fileID: 1729015827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pared Izquierda
   m_TagString: Pared
   m_Icon: {fileID: 0}
